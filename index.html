@@ -126,27 +126,28 @@
                                 onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center bg-slate-700 text-slate-400\'><span class=\'text-4xl\'>SK</span></div>'"
                             >
                         </div>
-                        <!-- Verified Badge -->
-                        <div class="absolute bottom-1 right-1 bg-white rounded-full p-1 shadow-lg z-20">
-                            <i data-lucide="badge-check" class="w-5 h-5 text-blue-600 fill-current"></i>
+                        <!-- Verified Badge (Smaller by 30%) -->
+                        <div class="absolute bottom-1 right-1 bg-white rounded-full p-0.5 shadow-lg z-20">
+                            <i data-lucide="badge-check" class="w-3.5 h-3.5 text-blue-600 fill-current"></i>
                         </div>
                     </div>
 
-                    <!-- Arabic Name (Increased bottom margin for spacing) -->
-                    <h1 class="text-2xl md:text-3xl font-bold text-white mb-3 tracking-wide">المحامي سالم الكيت</h1>
+                    <!-- Arabic Name (Reduced by 10% using precise values) -->
+                    <h1 class="text-[1.35rem] md:text-[1.7rem] font-bold text-white mb-3 tracking-wide">المحامي سالم الكيت</h1>
                     
-                    <!-- English Name (Increased top margin for spacing) -->
-                    <!-- Updated: Smaller size (~30%), Shiny Bright Gold Color -->
-                    <h2 class="text-xs md:text-sm text-amber-300 font-serif font-semibold tracking-[0.2em] uppercase mt-3 mb-4 drop-shadow-sm">Lawyer Salem Alkait</h2>
+                    <!-- English Name -->
+                    <!-- Updated: Font changed to Playfair Display, Size reduced by 10% -->
+                    <h2 class="text-[0.7rem] md:text-[0.8rem] text-amber-300 font-['Playfair_Display'] font-semibold tracking-[0.2em] uppercase mt-3 mb-4 drop-shadow-sm">Lawyer Salem Alkait</h2>
                     
                     <div class="h-1 w-24 bg-gradient-to-r from-transparent via-amber-500 to-transparent mb-3 opacity-80 mx-auto"></div>
                     
                     <!-- Job Titles (Arabic & English) -->
-                    <div class="flex flex-col items-center justify-center space-y-1">
+                    <!-- Updated: Increased spacing (space-y-3) to separate the titles slightly -->
+                    <div class="flex flex-col items-center justify-center space-y-3">
                         <!-- Arabic Title: Changed to WHITE -->
                         <p class="text-lg md:text-xl text-white font-medium">محامٍ ومستشار قانوني</p>
-                        <!-- English Title: Larger, Shiny Gold -->
-                        <p class="text-sm md:text-base text-amber-400 font-serif font-bold tracking-[0.1em] uppercase mt-1">Lawyer and Legal Advisor</p>
+                        <!-- English Title: Matched style with English Name (Playfair, Size, Color) -->
+                        <p class="text-[0.7rem] md:text-[0.8rem] text-amber-300 font-['Playfair_Display'] font-semibold tracking-[0.2em] uppercase drop-shadow-sm">Lawyer and Legal Advisor</p>
                     </div>
                 </div>
 
@@ -167,10 +168,10 @@
                                 <div class="flex flex-col items-start text-right w-full overflow-hidden">
                                     <div class="flex flex-nowrap items-center gap-x-2 w-full mb-1">
                                         <span class="text-white font-semibold text-lg leading-none whitespace-nowrap">اتصال مباشر</span>
-                                        <!-- Separator Line (Updated: Shiny Gold) -->
-                                        <span class="block w-[1px] h-3 bg-amber-400"></span>
-                                        <!-- Updated: Silver/Slate-200, Smaller, Professional -->
-                                        <span class="text-[10px] md:text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Direct Call</span>
+                                        <!-- Separator Line (Updated: Shiny Gold, Always Visible) -->
+                                        <span class="block w-[1px] h-3 bg-amber-400 flex-shrink-0"></span>
+                                        <!-- Updated: Silver/Slate-200, Smaller (xs), Professional -->
+                                        <span class="text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Direct Call</span>
                                     </div>
                                     <span class="text-slate-400 text-xs">0527862750</span>
                                 </div>
@@ -191,10 +192,10 @@
                                 <div class="flex flex-col items-start text-right w-full overflow-hidden">
                                     <div class="flex flex-nowrap items-center gap-x-2 w-full mb-1">
                                         <span class="text-white font-semibold text-lg leading-none whitespace-nowrap">واتساب</span>
-                                        <!-- Separator Line (Updated: Shiny Gold) -->
-                                        <span class="block w-[1px] h-3 bg-amber-400"></span>
-                                        <!-- Updated: Silver/Slate-200, Smaller, Professional -->
-                                        <span class="text-[10px] md:text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">WhatsApp</span>
+                                        <!-- Separator Line (Updated: Shiny Gold, Always Visible) -->
+                                        <span class="block w-[1px] h-3 bg-amber-400 flex-shrink-0"></span>
+                                        <!-- Updated: Silver/Slate-200, Smaller (xs), Professional -->
+                                        <span class="text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">WhatsApp</span>
                                     </div>
                                     <span class="text-slate-400 text-xs">محادثة فورية</span>
                                 </div>
@@ -215,10 +216,10 @@
                                 <div class="flex flex-col items-start text-right w-full overflow-hidden">
                                     <div class="flex flex-nowrap items-center gap-x-2 w-full mb-1">
                                         <span class="text-white font-semibold text-lg leading-none whitespace-nowrap">انستجرام</span>
-                                        <!-- Separator Line (Updated: Shiny Gold) -->
-                                        <span class="block w-[1px] h-3 bg-amber-400"></span>
-                                        <!-- Updated: Silver/Slate-200, Smaller, Professional -->
-                                        <span class="text-[10px] md:text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Instagram</span>
+                                        <!-- Separator Line (Updated: Shiny Gold, Always Visible) -->
+                                        <span class="block w-[1px] h-3 bg-amber-400 flex-shrink-0"></span>
+                                        <!-- Updated: Silver/Slate-200, Smaller (xs), Professional -->
+                                        <span class="text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Instagram</span>
                                     </div>
                                     <span class="text-slate-400 text-xs">@lawyer_salemalkait</span>
                                 </div>
@@ -239,10 +240,10 @@
                                 <div class="flex flex-col items-start text-right w-full overflow-hidden">
                                     <div class="flex flex-nowrap items-center gap-x-2 w-full mb-1">
                                         <span class="text-white font-semibold text-lg leading-none whitespace-nowrap">الموقع الإلكتروني</span>
-                                        <!-- Separator Line (Updated: Shiny Gold) -->
-                                        <span class="block w-[1px] h-3 bg-amber-400"></span>
-                                        <!-- Updated: Silver/Slate-200, Smaller, Professional -->
-                                        <span class="text-[10px] md:text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Website</span>
+                                        <!-- Separator Line (Updated: Shiny Gold, Always Visible) -->
+                                        <span class="block w-[1px] h-3 bg-amber-400 flex-shrink-0"></span>
+                                        <!-- Updated: Silver/Slate-200, Smaller (xs), Professional -->
+                                        <span class="text-xs text-slate-200 font-serif font-semibold uppercase tracking-widest leading-none whitespace-nowrap">Website</span>
                                     </div>
                                     <span class="text-slate-400 text-xs">rakadvocates.com</span>
                                 </div>
